@@ -1,0 +1,263 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <title>Youtube</title>
+     <style>
+         body{
+             margin: 0;
+             padding: 0;
+             font-family: 'poppins';
+             box-sizing: border-box;
+             overflow: hidden;
+         }
+         .nav-logo{
+             /* background-color: gray; */
+             background-attachment: fixed;
+             height:100px;
+              position: fixed;
+             left:0;
+             top:0;
+             right: 0; 
+             z-index: 10;
+         }
+ 
+         .fa-bars{
+            font-size: 40px;
+         }
+         .fa-youtube{
+             color:red; 
+             font-size: 40px;
+         }
+         .youtube{
+             text-decoration: none;
+             font-size: 30px;
+             color: black;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         }
+         .search{
+             position: absolute;
+             left:430px ;
+             font-size: 20px;
+             width:328px;
+             padding: 14px;
+             border-radius: 30px 0px 0px 30px;
+             border: 1px solid grey;
+         }
+         .fa-magnifying-glass{
+             font-size: 20px;
+             position: absolute;
+             left:750px;
+             top:16px;
+             width:50px;
+             padding: 15.5px;
+             border-radius: 0px 30px 30px 0px;
+             border: 1px solid  grey;
+             background-color:#f8f8f8;
+         }
+         .nav-item,.nav-item1{
+             display: inline;
+         }
+         .fa-microphone{
+             position: absolute;
+             left:930px;
+             font-size: 30px;
+             background-color:#f2f2f2 ;
+             width: 30px;
+             height: 30px;
+             padding: 20px;
+             text-align: center;
+             border-radius: 100px;
+             
+         }
+ 
+         .fa-video{
+             position: absolute;
+             left: 1050px;
+             top:35px;
+             font-size: 33px;
+             color:rgba(0,0, 0,0.5);
+ 
+         }
+         .fa-bell{
+         font-size: 45px;
+         position: absolute;
+         left:1150px;
+         top:24px;
+         font-weight: 700;
+ 
+        }
+        .fa-g{
+         position:absolute;
+         left:1250px;
+         top:20px;
+         font-size:28px;
+         color: white;
+             background-color:#5d4038 ;
+             width: 30px;
+             height: 30px;
+             padding: 10px;
+              text-align: center;
+              border-radius: 100px;   
+        }
+     
+     .dropdown-menu {
+     display: none;
+     position:fixed;
+     z-index: 10;
+     padding: 10px;
+     top: 60px;
+     left: 0px;
+     width: 200px;
+     max-height: 800px; 
+     background-color:white;
+     overflow-y: auto; 
+           }
+ 
+ .nav-item1:hover .dropdown-menu {
+     display: block; 
+ }
+ 
+ .fa-bars:hover .dropdown-menu{
+             display: block; 
+          }
+          a{
+              color:black;
+             font-size:20px;
+             font-weight: 900;
+             text-decoration: none;
+          }
+          .dropdown-menu > li{
+             list-style-type: none;
+             color: white;
+             font-size:15px;
+             font-weight: 900;
+             text-decoration: none;
+             padding: 40px;
+          }
+         .div-left{
+             width:150px;
+             height: 500px;
+             position: fixed;
+             top:100px;
+             left:0;
+             overflow: hidden; 
+         }
+          button{
+             padding:25px;
+             font-size: 20px;
+             border: none;
+             background-color: white;
+          }
+          .middle-div {
+             position: absolute;
+             top: 180px;
+             left: 180px;
+             width: calc(100vw - 180px);
+             height: calc(100vh - 180px);
+             /* border: 1px solid #ccc; */
+             padding: 10px;
+             overflow-y: scroll; 
+             overflow-x: hidden; 
+             background-color: #f9f9f9;
+             scroll-behavior: smooth;
+          }
+          iframe{
+             border-radius: 15px;
+          }
+          a:focus{
+             background-color: gray;
+          }  
+          .div-menu2{
+            position: absolute;
+            top:90px;
+            left:120px;
+          }
+          .div-menu2>button>li{
+            list-style-type:none;
+          }
+           .div-menu2>button{
+            border: 1px solid grey;
+            padding: 10px;
+            border-radius: 15px;
+            margin: 10px;
+            background-color: #f8f8f8;
+          } 
+          .div-menu2>button:hover{
+            color:white;
+            background-color: black;
+          }
+     </style>
+ </head>
+ <body>
+     <nav class="nav-logo">
+        <ul class="dropdown">
+         <li class="nav-item1"><i class="fa-solid fa-bars"></i>
+            <ul class="dropdown-menu">
+              <li><a href=""><i class="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp;&nbsp;Home</a></li>
+              <li><a href=""><i class="fa-solid fa-reply"></i>&nbsp;&nbsp;&nbsp;&nbsp;Shorts</a></li>
+              <li><a href=""><i class="fa-solid fa-tv"></i>&nbsp;&nbsp;&nbsp;Subscriptions</a></li><hr>
+              <li><a href="">YOU  ></a></li>
+              <li><a href=""> History</a></li>
+              <li><a href=""> Playlists</a></li>
+              <li><a href="">Your videos</a></li><hr>
+              <li><a href="">Watch later</a></li>
+              <li><a href="">Liked videos</a></li>
+              <li><a href=""><i class="fa-solid fa-download"></i>&nbsp;&nbsp;&nbsp;Downloads</a></li>
+              <li><a href="">Subscriptions</a></li>
+            </ul>
+         </li>
+         <li class="nav-item"> <a href="" class="youtube">  <i class="fa-brands fa-youtube">&nbsp;</i>YouTube<sup>in</sup></a></li>
+         <li class="nav-item" > <input type="text" placeholder="Search" class="search"></li>
+         <li class="nav-item"><i class="fa-solid fa-magnifying-glass"></i></li>
+         <li class="nav-item" > <i class="fa-solid fa-microphone"></i></li>
+          <li class="nav-item"><i class="fa-solid fa-video"></i></li>
+         <li class="nav-item"><i class="fa-regular fa-bell"></i></li>
+         <li class="nav-item"><i class="fa-solid fa-g"></i></li>
+        </ul>
+ </nav>
+ <ul class="div-menu2">
+    <button><li>All</li></button>
+    <button><li>Telugu Cinema</li></button>
+    <button><li>Tamil Cinema</li></button>
+    <button><li>Songs</li></button>
+    <button><li>Web Development</li></button>
+    <button><li>Numbers</li></button>
+    <button><li>Web Series</li></button>
+    <button><li>Dhee</li></button>
+    
+   </ul>
+ <div class="div-left">
+     <table>
+         <tr>
+             <td>&nbsp;&nbsp;&nbsp;<button><i class="fa-solid fa-house"></i><br>Home</button></td>
+         </tr>
+         <tr>
+             <td>&nbsp;&nbsp;&nbsp;&nbsp;<button><i class="fa-solid fa-reply"></i><br>Shorts</button></td>
+         </tr>
+         <tr>
+             <td><button><i class="fa-solid fa-tv"></i><br>Subscriptions</button></td>
+         </tr>
+         <tr>
+             <td>&nbsp;&nbsp;&nbsp;&nbsp;<button><i class="fa-solid fa-right-to-bracket"></i><br>Login</button></td>
+         </tr>
+         <tr>
+             <td>&nbsp;&nbsp;&nbsp;<button><i class="fa-solid fa-download"></i><br>Download</button></td>
+         </tr>
+     </table>
+ 
+ </div>
+ 
+ <div class="middle-div">
+     <table>
+       <tr><td><iframe width="560" height="315" src="https://www.youtube.com/embed/jsBHzgWMpHQ?si=NIUjrQ4um4lJJ_ra"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <br><h2>Satyadev And Aishwaeya Lakshmi Telugu Super Hit<br> Full Movie|| Telugu Movies</h2></td>
+     <td><iframe width="560" height="315" src="https://www.youtube.com/embed/Mstx_8Y2Wps?si=_fAlFTczMQ0NKNgO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><h2>Tom & Jerry 😺🐭| Nibbles’ Diwali Surprise for Tom! 🧨🤪| Cartoon for Kids</h2></td></tr>
+    <tr><td><iframe width="560" height="315" src="https://www.youtube.com/embed/_P2aI9SYDbo?si=XDPO2l38gPRam2TM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><h2>Garuda Gamana Tava | Shree Naval Kishori | Divine Dharohar</h2></td>
+    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/ZGrdjGQZ9ug?si=BdOX3e5KFlcR4r86" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><h2>Godari gattu medha || lyrical video song || sankranthi ki ostununam movie</h2></td>
+ </tr>
+ </table>
+ </div>
+ </body>
+ </html>

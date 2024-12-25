@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //even or odd number
+        var a=parseInt(prompt("enter a value:"));
+       if(a%2==0){
+        document.write("even<br>");
+       }
+       else
+       document.write("odd<br>");
+      //biggest of 2
+      var b=parseInt(prompt("enter b value:"));
+      var c=parseInt(prompt("enter c value:"));
+      if(b>c){
+        document.write("b is big"+b+"<br>");
+      }
+      else
+      document.write("c is big"+c+"<br>")
+    //nested if else
+    //biggest of 3
+    var n1=parseInt(prompt("enter n1 value:"));
+    var n2=parseInt(prompt("enter n2 value:"));
+    var n3=parseInt(prompt("enter n3 value:"));
+    if(n1>n2){
+        if(n1>n3){
+            document.write("n1 is big<br>");
+        }
+        else
+        document.write("n3 is big<br>");
+    }
+    else
+    {
+        if(n2>n3){
+            document.write("n2 is big<br>");
+        }
+        else
+        document.write("n3 is big<br>");
+    }
+    </script>
+</body>
+</html>

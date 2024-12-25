@@ -1,0 +1,277 @@
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Movement</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lugrasimo&family=Pattaya&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            overflow-x: hidden;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 10px;
+            background-color: #F2EFEA;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav .title1 {
+            font-family: 'Cutive Mono', monospace;
+            color: #8E8E8E;
+            margin-right: auto;
+            margin-left: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            position: relative;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #8E8E8E;
+            font-size: 15px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: orange;
+        }
+
+        nav ul .drop2 ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul .drop2:hover ul {
+            display: block;
+        }
+
+        nav ul .drop2 ul li {
+            padding: 10px;
+            text-align: left;
+        }
+
+        nav ul .drop2 ul li a {
+            color: #8E8E8E;
+            font-size: 14px;
+        }
+
+        nav ul .drop2 ul li:hover {
+            background-color: #f0a502;
+            color: white;
+            border-radius: 8px;
+        }
+
+        button {
+            outline: none;
+            cursor: pointer;
+            border: none;
+            padding: 0.9rem 2rem;
+            margin: 0;
+            font-family: inherit;
+            font-size: 17px;
+            border-radius: 500px;
+            background: orange;
+            color: white;
+            transition: background 0.4s, color 0.4s;
+        }
+
+        button:hover {
+            background: white;
+            color: orange;
+            box-shadow: 0 0 10px orange;
+        }
+
+        h1, h2, h4, h6 {
+            color: orange;
+        }
+
+        p {
+            color: grey;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .train {
+            text-align: center;
+        }
+
+        .course {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #F9F9F9;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: black;
+            color: grey;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer .lastclass {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+
+        footer .items, footer .contact, footer .followus {
+            flex: 1;
+            margin: 10px;
+            min-width: 200px;
+        }
+
+        footer .items a, footer .followus a {
+            color: grey;
+            text-decoration: none;
+            margin: 5px;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+
+        footer .items a:hover, footer .followus a:hover {
+            color: orange;
+        }
+
+        footer .followus a i {
+            font-size: 20px;
+            margin: 0 10px;
+        }
+
+        footer .copy {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1 class="title1">YOGA MOVEMENT</h1>
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> HOME</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-circle-info"></i> ABOUT</a></li>
+            <li class="drop2">
+                <a href="#">SERVICES <i class="fa-solid fa-angle-down"></i></a>
+                <ul>
+                    <li><a href="online1.html">ONLINE</a></li>
+                    <li><a href="offline1.html">OFFLINE</a></li>
+                </ul>
+            </li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><button><a href="register1.html" style="color: white;">Register Now</a></button></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Welcome to Online Yoga Program</h1>
+        <p>Our name says it all: we're all about habit building</p>
+        <img src="https://assets.habit.yoga/habuildassets/hb-about.png" alt="Yoga Image">
+        <section>
+            <p>We blend the best of old-school knowledge with modern tricks to help you build long-lasting healthy habits. While many people want to form a regular exercise routine, only a fraction succeeds. We're here to bridge that gap!</p>
+            <p>Join "Yoga Everyday," dedicated to building a healthy habit of Yoga and "Dance & Strength," an invigorating dance cardio workout that'll have you eagerly waiting for your next session.</p>
+        </section>
+
+        <h2 class="train">Meet Your Trainers</h2>
+        <section>
+            <p>Our team of world-class instructors will empower you to grow and achieve all your fitness and wellness goals.</p>
+            <p>Yoga Everyday with <strong>Saurabh Bothra</strong></p>
+            <img src="https://assets.habit.yoga/habuildassets/Saurabh-Bothra-trainer.webp" alt="Saurabh Bothra">
+            <p>Dance and Strength with <strong>Trishala Bothra</strong></p>
+            <img src="https://assets.habit.yoga/habuildassets/Trishala-trainer.webp" alt="Trishala Bothra">
+        </section>
+
+        <h2>Access Free Resources</h2>
+        <section>
+            <img src="https://assets.habit.yoga/habuildassets/free-resources.webp" alt="Free Resources">
+            <p>Get access to several of our free programs and resources when you sign up.</p>
+        </section>
+
+        <section class="course">
+            <h2>Online Courses</h2>
+            <h6>Online Regular:</h6>
+            <p>Yoga sessions: Rediscover, Rejuvenate, Relax</p>
+            <h5>Join our online yoga program to evoke your inner self</h5>
+            <h4>Timings:</h4>
+            <p>Morning: 5 AM - 6 AM<br>Evening: 6 PM - 7 PM</p>
+            <h4>Sessions:</h4>
+            <p>Live group class on Zoom</p>
+            <h4>Fees:</h4>
+            <p>Rs. 3000/Month<br>Rs. 7500/3 Months<br>Rs. 11000/6 Months</p>
+            <h4>Prerequisite:</h4>
+            <ul>
+                <li>Mobile Phone or Laptop</li>
+                <li>Stable internet connection</li>
+                <li>Quiet practice space</li>
+                <li>Yoga Mat</li>
+                <li>Zeal to learn and practice</li>
+                <li>Smile</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="lastclass">
+            <div class="items">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="training.html">Training and Courses</a>
+                <a href="yogaservices.html">Services</a>
+                <a href="blog.html">Blog</a>
+                <a href="contactus.html">Contact Us</a>
+            </div>
+            <div class="followus">
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://telegram.org"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+            <div class="contact">
+                <p><b>Phone:</b> +91-9392388544</p>
+                <p><b>Email:</b> yogamovement@gmail.com</p>
+            </div>
+        </div>
+        <p class="copy">&copy; 2024 Yoga Movement, LLC</p>
+    </footer>
+</body>
+
+</html>

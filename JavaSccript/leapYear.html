@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var start=1900 ,end=2024;
+        for(start=1900;start<=end;start++){
+            if((start%400==0) || (start%4==0 && start%100!=0))
+          document.write(start+"<br>");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         .p1{
+            position: absolute;
+            left:550px;
+            color: #2f3763;
+         }
+         .p2{
+            position: absolute;
+            left:600px;
+            top:90px;
+            color: #2f3763;
+         }
+         .p3{
+            position: absolute;
+            left:550px;
+            top:120px;
+            color: #2f3763;
+         }
+         h1{
+            position: absolute;
+            left:350px;
+            top:40px;
+            color: #2f3763;
+         }
+         .img1{
+            position: absolute;
+            left:1150px;
+         }
+         .img2{
+            position: absolute;
+            left:50px;
+         }
+        
+         .nav-main{
+             display: inline;
+             position: sticky;
+             top:0px; 
+            /* position: absolute;
+            top:180px; */
+            width: 100%;
+            height: 150px; 
+            background-color:#073763;    
+             
+         }
+         .dropdown-menu{
+            display: none;
+            position:absolute;
+            z-index: 5px;
+            background-color:#073763;
+            left:100px;
+            padding: 10px;
+            top:40px;
+           
+            
+         }
+         .dropdown:hover .dropdown-menu{
+            display: block;
+            
+         }
+         .nav-item{
+            display: inline;
+            list-style-type: none;
+            margin-left: 20px;
+         }
+         a{
+            /* color: white; */
+            font-size:15px;
+            font-weight: 900;
+            text-decoration: none;
+         }
+         .dropdown-menu > li{
+            list-style-type: none;
+            border: 1px solid #1b4974; 
+            padding: 10px;
+         }
+         .dropdown-menu >li{
+            color: white;
+            font-size:15px;
+            font-weight: 900;
+            text-decoration: none;
+         }
+         .fa-caret-up{
+            color: white;
+         }
+         .clg-img{
+            position: absolute;
+            top:300px;
+         }
+        
+    </style>
+</head>
+<body>
+    <!-- <header>
+       
+    <p class="p1">
+        శ్రీ పద్మావతి మహిళా విశ్వవిద్యాలయం
+        </p>
+        <h1>SRI PADMAVATI MAHILA VISVAVIDYALAYAM</h1>
+        <p class="p2">(Women's University)</p>
+          <p class="p3">  Tirupati, Andhra Pradesh-517502, India</p>
+        <img src="https://www.spmvv.ac.in/jbframework/uploads/2022/06/logo_right.jpg" alt="image" width="150px" height="90" class="img1">
+        <img src="https://www.spmvv.ac.in/jbframework/uploads/2022/05/logo-left.png" alt="image" width="150" height="150" class="img2">
+    </header> -->
+    
+    <nav class="nav-main">
+        <ul class="dropdown">
+            <li class="nav-item"><a href="">HOME</a></li>
+            <li class="nav-item"><a href="">ABOUT &nbsp;<i class="fa-solid fa-caret-up"></i></a>
+              <ul class="dropdown-menu">
+               <li><a href="https://www.spmvv.ac.in/spmvv/"></a>SPMVV</li>
+               <li><a href="https://www.spmvv.ac.in/mission-vision/"></a>MISSION&VISION</li>
+               <li><a href="https://www.spmvv.ac.in/goals/"></a>GOALS</li>
+               <li><a href="https://www.spmvv.ac.in/campus/"></a>CAMPUS</li>
+            </ul>
+            </li>
+            <li class="nav-item"><a href="">ADMINISTRATION</a></li>
+            <li class="nav-item"><a href="">ACADAMICS</a></li>
+            <li class="nav-item"><a href="">IQAC</a></li>
+            <li class="nav-item"><a href="">RANKING</a></li>
+            <li class="nav-item"><a href="">INTERNATIONAL</a></li>
+            <li class="nav-item"><a href="">PLACEMENTS</a></li>
+            <li class="nav-item"><a href="">CODE(DDE)</a></li>
+            <li class="nav-item"><a href="">CENTERS</a></li>
+            <li class="nav-item"><a href="">GALLART</a></li>
+            <li class="nav-item"><a href="">CONTACT</a></li>
+        </ul>
+    </nav>
+  
+    <img src="https://www.spmvv.ac.in/jbframework/uploads/2022/06/banner_arch.jpg" width="100%" height="600" alt="image" class="clg-img">
+</body>
+</html>

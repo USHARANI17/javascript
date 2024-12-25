@@ -1,0 +1,47 @@
+<html>
+ <head>
+ </head>
+  <body>
+    <h3 align="right">DATE:25<sup>th</sup>Nov 2024<h3>
+     <h1 align="right"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKGD2rgvtDnZIa-OWWDu6p8h-oEpc-72eyXA&s" alt="image" height="100" width="100"> </h1>
+      <hr>
+    <h1 align="center"><font color="green"><marquee direction="right">Welcome🙏 </marquee>Dr.Reddys foundation🔥</font></h1>
+    <h2>Available courses:</h2>
+    <ol type="A">
+       <li>Web Full Stack</li>
+           <ul>
+             <li>Html</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>NodeJs</li>
+           </ul>
+       <li>Java Full Stack</li>
+          <ul>
+           <li>CoreJava</li>
+            <li>SpringBoot</li>
+            <li>FrontEnd</li>
+          </ul>
+       <li>Python Full Stack</li>
+          <ul>
+            <li>Python</li>
+             <li>Django</li>
+          </ul>
+    </ol>
+ 
+    <h4><u>
+       <dl>
+          <ol>
+              <li> <dt>HTML:</dt></li> </u>
+             <dd>Hyper text markup language 😊</dd>
+              <li><u><dt>CSS:</dt></u></li>
+             <dd>Cascading Style Sheets</dd>
+          </ol>
+       </dl>
+    </h4>
+    <p><font color="yellow" size="5"><b>The opening tag:</b></font> This consists of the name of the element (in this example, p for paragraph), wrapped in opening and closing angle brackets.<br> This opening tag marks where the element begins or starts to take effect. In this example, it precedes the start of the paragraph text.
+    <br><i>The content:</i> This is the content of the element. In this example, <del>it is the paragraph text.</del>
+    <mark>The closing tag:</mark> This is the same as the opening tag, except that it includes a forward slash before the element name. This marks where the element ends. Failing to include a closing tag is a common beginner error that can produce peculiar results.</p>
+    <h2>ALL THE BEST&#128077;</h2>
+    <h2 align="right"><bdo dir="rtl"><font color="red" face="French Script MT">THANK YOU</font></bdo><h2>
+  </body>
+</html>
